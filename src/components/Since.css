@@ -1,0 +1,52 @@
+.Since {
+	font-family: "Dancing Script";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.Since .plank {
+	background-image: url("../images/plank.webp");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	height: 100px;
+	width: 200px;
+	margin-top: -10px;
+}
+
+.Since .plank:nth-child(2n+1) {
+	margin-left: -100px;
+	transform: rotate(-15deg);
+}
+
+.Since .plank:nth-child(2n) {
+	margin-left: 100px;
+	transform: rotate(15deg);
+}
+
+.Since h1 {
+	font-size: 2rem;
+}
+
+.Since h2 {
+	font-size: 1.5rem;
+	padding-bottom: 20px;
+}
+
+.Since p {
+	font-size: 1.5rem;
+	color: #eee;
+	margin: 0 0 0 1rem;
+}
+
+.Since h1 {
+	color: #fff;
+	margin: 0;
+	font-size: 3rem;
+}
