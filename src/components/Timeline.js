@@ -28,43 +28,43 @@ const Timeline = () => {
 			<p>Our First Date 🥇</p>
 			<ColorExtractor src={one} getColors={colors => setOneColor(colors)} />
 			<div style={{backgroundColor: oneColor[1]}}>
-				<img src={one} />
+				<img src={one} alt="1" />
 			</div>
 
 			<p>First Time Shooting 🔫</p>
 			<ColorExtractor src={two} getColors={colors => setTwoColor(colors)} />
 			<div style={{backgroundColor: twoColor[1]}}>
-				<img src={two} />
+				<img src={two} alt="2" />
 			</div>
 
 			<p>Car Rides 🚙</p>
 			<ColorExtractor src={three} getColors={colors => setThreeColor(colors)} />
 			<div style={{backgroundColor: threeColor[1]}}>
-				<img src={three} />
+				<img src={three} alt="3" />
 			</div>
 
 			<p>Halloween 🎃</p>
 			<ColorExtractor src={four} getColors={colors => setFourColor(colors)} />
 			<div style={{backgroundColor: fourColor[1]}}>
-				<img src={four} />
+				<img src={four} alt="4" />
 			</div>
 
 			<p>My Dad's Wedding 💒</p>
 			<ColorExtractor src={five} getColors={colors => setFiveColor(colors)} />
 			<div style={{backgroundColor: fiveColor[1]}}>
-				<img src={five} />
+				<img src={five} alt="5" />
 			</div>
 
 			<p>Your 21st 🎉</p>
 			<ColorExtractor src={six} getColors={colors => setSixColor(colors)} />
 			<div style={{backgroundColor: sixColor[1]}}>
-				<img src={six} />
+				<img src={six} alt="6" />
 			</div>
 
 			<p>Zoo Trip 🦎</p>
 			<ColorExtractor src={seven} getColors={colors => setSevenColor(colors)} />
 			<div style={{backgroundColor: sevenColor[1]}}>
-				<img src={seven} />
+				<img src={seven} alt="7" />
 			</div>
 		
 		</div>

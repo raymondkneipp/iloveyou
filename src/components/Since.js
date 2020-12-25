@@ -3,25 +3,25 @@ import { useState } from "react";
 import "./Since.css";
 
 const Since = () => {
-	const [today, setToday] = useState(moment())
-	const [started, setStarted] = useState(moment("20200724", "YYYYMMDD"));
+	const [today] = useState(moment())
+	const [started] = useState(moment("20200724", "YYYYMMDD"));
 
-	const [years, setYears] = useState(today.diff(started, 'year'));
+	const [years] = useState(today.diff(started, 'year'));
 	started.add(years, "years");
 
-	const [months, setMonths] = useState(today.diff(started, "months"));
+	const [months] = useState(today.diff(started, "months"));
 	started.add(months, "months");
 
-	const [days, setDays] = useState(today.diff(started, "days"));
+	const [days] = useState(today.diff(started, "days"));
 	started.add(days, "days");
 
-	const [hours, setHours] = useState(today.diff(started, "hours"));
+	const [hours] = useState(today.diff(started, "hours"));
 	started.add(hours, "hours");
 
-	const [minutes, setMinutes] = useState(today.diff(started, "minutes"));
+	const [minutes] = useState(today.diff(started, "minutes"));
 	started.add(minutes, "minutes");
 
-	const [seconds, setSeconds] = useState(today.diff(started, "seconds"));
+	const [seconds] = useState(today.diff(started, "seconds"));
 	started.add(seconds, "seconds");
 
 	return (
