@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const WordsOfAffirmation = () => {
-  const [words, setWords] = useState([
+  const [words] = useState([
     "I love you so much!",
     "You are my star!",
     "You are loved more than you can fathom.",
